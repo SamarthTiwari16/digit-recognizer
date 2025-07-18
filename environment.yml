@@ -1,0 +1,14 @@
+name: digit_recognizer_env
+channels:
+  - defaults
+  - conda-forge # Often useful for packages like opencv-python
+dependencies:
+  - python=3.10 # Or 3.9, 3.11, 3.12
+  - pip
+  - pip:
+    - streamlit
+    - numpy
+    - tensorflow
+    - opencv-python
+    - scipy
+    - streamlit-drawable-canvas
